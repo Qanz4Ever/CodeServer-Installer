@@ -23,9 +23,9 @@ Tanpa expose port publik, tanpa ribet setting DNS manual, dan UX interaktif berb
 ## 🚀 Cara Install
 ### Tempel Saja Code Bash Ini Di Terminal Anda Dan Tunggu
 ```Bash
-apt install curl -y
-apt install wget -y
-curl -o app.sh.x https://github.com/Qanz4Ever/Code-Server-And-Cloudflared-Auto-Setup/raw/refs/heads/main/app.sh.x
+apt install git -y
+git clone https://github.com/Qanz4Ever/Code-Server-And-Cloudflared-Auto-Setup/
+cd Code-Server-And-Cloudflared-Auto-Setup
 chmod +x app.sh.x
 sudo ./app.sh.x
 ```
