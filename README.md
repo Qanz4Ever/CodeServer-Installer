@@ -24,8 +24,8 @@ Tanpa expose port publik, tanpa ribet setting DNS manual, dan UX interaktif berb
 ### Tempel Saja Code Bash Ini Di Terminal Anda Dan Tunggu
 ```Bash
 apt install curl -y
-apt install shc -y
-curl -o app.sh
-chmod +x install.sh
-sudo ./install.sh
+apt install wget -y
+curl -o app.sh.x https://github.com/Qanz4Ever/Code-Server-And-Cloudflared-Auto-Setup/raw/refs/heads/main/app.sh.x
+chmod +x app.sh.x
+sudo ./app.sh.x
 ```
