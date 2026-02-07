@@ -46,31 +46,25 @@ Script ini berguna untuk:
 
 ## ▶️ Cara Menggunakan
 
-### 1. Download Script Installer
+### 1. Jalankan Command Ini Di Terminal
 ```bash
-wget https://example.com/install.sh -O install.sh
-chmod +x install.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/Qanz4Ever/CodeServer-Installer/refs/heads/main/codeServer-installer.sh)
 ```
 
-### 2. Jalankan Script
-```bash
-sudo ./install.sh
-```
-
-### 3. Ikuti Prompt
+### 2. Ikuti Promt
 - Masukkan password code-server
 - Masukkan subdomain
 - Masukkan nama tunnel
 - Pilih port (auto / manual / custom)
 
-### 4. Hasil Akhir
+## 3. Hasil Akhir
 ```text
 URL      : https://subdomain.domainkamu
 Password : ********
 Port     : 8xxx
 ```
 
-### 5. Uninstall
+### 4. Uninstall 
 Jalankan ulang script dan pilih menu **Uninstall**.
 
 ---
