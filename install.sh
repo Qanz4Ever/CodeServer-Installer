@@ -1,6 +1,11 @@
 #!/bin/bash
 set -e
 
+# All Code Created By Mfsavana
+# Don't Use And Steal Code
+# License Apache License 2.0
+# Credit Mfsavana © 2026
+
 # ========= COLOR =========
 G="\e[32m"; Y="\e[33m"; R="\e[31m"; B="\e[34m"; C="\e[36m"; N="\e[0m"
 log()  { echo -e "${C}$1${N}"; }
